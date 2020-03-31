@@ -67,10 +67,13 @@ header.login-header {
     font-size: 32px;
     font-weight: bold;
     outline: none;
-    caret-color: #E25656;
   }
   .form-section form input[type="text"]::placeholder {
     color: #DFDFDF;
+  }
+
+  .form-section form input:focus {
+    border-color: black;
   }
 
   .form-section form input[type="password"]::placeholder {
