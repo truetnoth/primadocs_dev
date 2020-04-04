@@ -42,6 +42,10 @@ header.login-header {
     cursor: pointer;
   }
 
+  .button-signup {
+    width: 100%;
+  }
+
   .form-link {
     display: inline-block;
     padding: 3px 0;
@@ -81,7 +85,26 @@ header.login-header {
   }
 
 footer {
-  width: 80%;
+  width: 60%;
   margin: 150px auto 0 auto;
+  padding-top: 10px;
+  color: #C5C5C5;
   border-top: 1px solid #DFDFDF;
+  display: flex;
+  justify-content: space-between;
+}
+  .footer .left-col a {
+    text-decoration: none;
+    color: #C5C5C5;
+  }
+
+
+.button-comeback {
+  color: #E25656;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button-comeback:hover {
+  color: #56BDE2;
 }
