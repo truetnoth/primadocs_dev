@@ -127,7 +127,9 @@ footer {
   color: #56BDE2;
 }
 
-
+.create-header .header-controls{
+  width: 55px;
+}
 .header-controls {
   display: flex;
   justify-content: space-between;
@@ -208,6 +210,9 @@ footer {
   margin-top: 30px;
   outline: none;
 }
+  .template-item img {
+    border: 1px solid #ccc;
+  }
   .template-item:hover {
     background-color: #F5F5F5;
     border: 1px solid #F5F5F5;
@@ -262,8 +267,35 @@ footer {
   .sub-info-time {
     margin-left: 50px;
   }
+  .sub-info-time p {
+    text-align: center;
+  }
+
   .template-sub-info div h3 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
   }
+
+.create-template {
+  margin: 0 auto;
+  width: 70%;
+}
+  .create-template input {
+    width: 96%;
+    padding: 25px;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    outline: none;
+  }
+    .create-template input::placeholder {
+      font-size: 28px;
+      color: #DFDFDF;
+      font-weight: bold;
+    }
+    .create-template input:focus {
+      border-color: black;
+    }
