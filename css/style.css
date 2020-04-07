@@ -16,7 +16,7 @@ header.dashboard-header {
   width: 70%;
   margin: 0 auto;
   height: 50px;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .form-section {
@@ -99,7 +99,7 @@ header.dashboard-header {
 
 footer {
   width: 70%;
-  margin: 150px auto 0 auto;
+  margin: 50px auto;
   padding-top: 10px;
   color: #C5C5C5;
   border-top: 1px solid #DFDFDF;
@@ -174,4 +174,87 @@ footer {
 }
   .logout-button:hover {
     color: #56BDE2;
+  }
+
+.dashboard-list-container {
+  margin-top: 30px;
+}
+
+.dashboard-list {
+  margin: 60px auto;
+  width: 70%;
+}
+
+.dashboard-list h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.template-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  padding: 30px 50px;
+  margin-top: 30px;
+  outline: none;
+}
+  .template-item:hover {
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+  }
+  .template-item:first-child {
+    margin-top: 0;
+  }
+
+.template-list-info {
+  width: 60%;
+}
+  .template-list-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .template-list-info p {
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #757575;
+  }
+
+.template-list-buttons {
+  width: 210px;
+}
+
+.template-list-button {
+  display: inline-block;
+  padding: 13px 15px;
+  padding-left: 40px;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+  .template-list-button:hover {
+    background-color: #56BDE2;
+    border: 1px solid #56BDE2;
+    color: white;
+  }
+  .template-list-button:first-child {
+    margin-top: 0;
+  }
+
+.template-sub-info {
+  display: flex;
+  margin-top: 30px;
+}
+  .sub-info-time {
+    margin-left: 50px;
+  }
+  .template-sub-info div h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
   }
