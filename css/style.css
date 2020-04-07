@@ -9,16 +9,29 @@ header.login-header {
   padding: 100px;
 }
 
+header.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  height: 50px;
+  padding: 20px 0;
+}
+
 .form-section {
   max-width: 400px;
   margin: 0 auto;
   padding: 40px;
-  min-height: 300px;
   border: 18px solid #E25656;
 }
   .form-section h2 {
     font-size: 32px;
     font-weight: bold;
+  }
+
+  .button-comeback ~ h2 {
+    margin-top: 10px;
   }
 
   .addition span {
@@ -63,7 +76,7 @@ header.login-header {
   
   .form-section form input[type="text"], input[type="password"] {
     display: block;
-    width: 95%;
+    width: 94.5%;
     margin-top: 30px;
     padding: 15px 10px;
     border: 1px solid #DFDFDF;
@@ -85,7 +98,7 @@ header.login-header {
   }
 
 footer {
-  width: 60%;
+  width: 70%;
   margin: 150px auto 0 auto;
   padding-top: 10px;
   color: #C5C5C5;
@@ -93,10 +106,15 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-  .footer .left-col a {
+  footer a {
+    display: inline-block;
     text-decoration: none;
     color: #C5C5C5;
+    margin-bottom: 10px;
   }
+    footer a:hover {
+      color: black;
+    }
 
 
 .button-comeback {
@@ -108,3 +126,52 @@ footer {
 .button-comeback:hover {
   color: #56BDE2;
 }
+
+
+.header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 480px;
+}
+  .header-controls input {
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    width: 155px;
+    padding-left: 35px;
+    height: 32px;
+    color: black;
+    font-weight: bold;
+  }
+    .header-controls input::placeholder {
+      font-size: 16px;
+      color: #DFDFDF;
+      font-weight: bold;
+    }
+    .header-controls input:focus {
+      border: 1px solid black;
+    }
+
+.create-template-button {
+  color: white;
+  font-size: 16px;
+  padding: 10px 35px;
+  background-color: #56BDE2;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+  .create-template-button:hover {
+    background-color: #E25656;
+  }
+
+.logout-button {
+  text-decoration: none;
+  color: #E25656;
+  font-weight: bold;
+}
+  .logout-button:hover {
+    color: #56BDE2;
+  }
