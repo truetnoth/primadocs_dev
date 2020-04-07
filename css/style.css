@@ -176,6 +176,15 @@ footer {
     color: #56BDE2;
   }
 
+.dashboard-list-empty {
+  width: 70%;
+  height: 70vh;
+  margin-top: -40px;
+  background-image: url(../assets/dashboard-instruction.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
 .dashboard-list-container {
   margin-top: 30px;
 }

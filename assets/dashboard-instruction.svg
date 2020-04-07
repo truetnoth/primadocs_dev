@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="605px" height="369px" viewBox="0 0 605 369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-empty" transform="translate(-509.000000, -93.000000)">
+            <g id="Group-4" transform="translate(508.000000, 92.750000)">
+                <g id="Group-3" transform="translate(0.000000, 0.600221)">
+                    <g id="Group-2" transform="translate(0.000000, 212.649779)">
+                        <text id="There-are-no-templat" font-family="SFProDisplay-Regular, SF Pro Display" font-size="27" font-weight="normal" letter-spacing="-0.648" fill="#DFDFDF">
+                            <tspan x="32.8410176" y="117">There are no templates yet. </tspan>
+                            <tspan x="0.00769921875" y="150">Create one by clicking this button</tspan>
+                        </text>
+                        <g id="file" transform="translate(146.500000, 0.000000)" stroke="#DFDFDF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M31.5,7.10542736e-15 L7,7.10542736e-15 C3.1340067,7.10542736e-15 3.55271368e-15,3.1340067 3.55271368e-15,7 L3.55271368e-15,63 C3.55271368e-15,66.8659921 3.1340067,70 7,70 L49,70 C52.8659923,70 56,66.8659921 56,63 L56,24.5 L31.5,7.10542736e-15 Z" id="Path"></path>
+                            <polyline id="Path" points="31.4999995 0 31.4999995 24.4999996 55.999999 24.4999996"></polyline>
+                        </g>
+                    </g>
+                    <path d="M361.582462,354.602726 C466.517981,337.381855 537.418838,294.14754 574.285032,224.899779 C611.151227,155.652018 614.462197,80.6854247 584.217943,-2.84217094e-14" id="Path-3" stroke="#DFDFDF" stroke-linecap="round"></path>
+                </g>
+                <line x1="584.5" y1="0.75" x2="591.5" y2="6.75" id="Line-5" stroke="#DFDFDF" stroke-linecap="round"></line>
+                <line x1="584.25" y1="0.5" x2="582.5" y2="9.75" id="Line-5" stroke="#DFDFDF" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>
